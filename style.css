@@ -274,7 +274,6 @@ p {
 
 .services div {
     cursor: pointer;
-    border:1px solid green;
     width:48%;
 }
 .services div img{
