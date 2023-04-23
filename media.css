@@ -1,0 +1,246 @@
+/* for 1200px large size device */
+@media screen and (max-width:1200px) {
+    .container {
+        padding-inline: 25px;
+    }
+
+    .head {
+        height: 8vh;
+        justify-content: center;
+    }
+
+    .location-bar,
+    .phone-bar,
+    .mail-bar {
+        padding-inline: 25px;
+        align-items: center;
+    }
+
+    .nav-content {
+        width: 50%;
+        padding-block: 200px;
+        margin-left: 20%;
+    }
+
+    .services {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-sub-heading {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+/* for 992px */
+@media screen and (max-width:992px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+
+    .container {
+        padding-inline: 50px;
+    }
+
+    .head {
+        height: 10vh;
+    }
+
+    .nav-links ul li a {
+        padding: 15px 20px;
+
+    }
+
+    .about-section {
+        padding-inline: 20px;
+    }
+
+    .result-section {
+        height: 50vh;
+
+    }
+
+    .left-image {
+        height: 60vh;
+    }
+
+    .left-image img {
+        height: 60vh;
+    }
+
+    .right-text {
+        height: 60vh;
+    }
+
+    .right-text .heading {
+        width: 80%;
+
+    }
+
+    .right-text .sub-heading {
+        width: 85%;
+    }
+
+    .why-sub-heading {
+        flex-wrap: wrap;
+    }
+
+    .footer-form input {
+        padding: 12px 20px;
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+
+    }
+
+    .footer-nav {
+        text-align: center;
+    }
+
+    .footer-nav div {
+        margin-right: 10px;
+        padding-inline: 10px;
+        width: 100%;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+}
+
+
+/* for 768px mediam size device */
+@media screen and (max-width:768px) {
+
+    .location-bar,
+    .phone-bar,
+    .mail-bar {
+        display: none;
+    }
+
+    .nav-links ul li a {
+        padding: 15px 15px;
+
+    }
+
+    .nav-content {
+        width: 80%;
+        padding-block: 200px;
+        margin-left: 10%;
+    }
+
+    .right-text {
+        padding: 10px 15px;
+    }
+
+    .right-text .sub-heading {
+        width: 100%;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .social-media div {
+        margin: 10px 0 0 10px;
+        padding: 10px 0px;
+    }
+}
+
+
+/* for 567px mediam small size device */
+@media screen and (max-width:567px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding-inline: 10px;
+    }
+
+    .nav-links {
+
+        display: none;
+    }
+
+    .service-section {
+        margin-block: 10px;
+    }
+
+    .customer-section-paragraph {
+        margin-bottom: 70px;
+    }
+
+    .result-section {
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .left-image {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .left-image img {
+        width: 100%;
+    }
+
+    .right-text {
+        height: 35vh;
+        text-align: center;
+        padding: 25px 10px;
+        margin-bottom: 100px;
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .contect-heading {
+        margin-block: 350px 30px;
+    }
+
+    form input {
+        padding: 10px 10px;
+        width: 80%;
+    }
+
+}
+
+
+/* for 400px very small size device */
+@media screen and (max-width:400px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .nav-btn button {
+        padding: 13px 30px;
+    }
+
+    .nav-content {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    .right-text {
+        height: 45vh;
+    }
+
+    .right-text .sub-heading {
+        text-align: justify;
+    }
+}
