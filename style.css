@@ -266,19 +266,19 @@ p {
 }
 
 .services {
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap:wrap;
     align-items: center;
 
 }
 
 .services div {
     cursor: pointer;
-    width: 100%;
+    border:1px solid green;
+    width:48%;
 }
-
-.service div img {
-    width: 100%;
+.services div img{
+    width:100%;
 }
 
 .services div p {
