@@ -219,6 +219,13 @@
         padding: 10px 10px;
         width: 80%;
     }
+    .footer-form input {
+        padding: 12px 20px;
+        width:60%;
+    }
+    .footer-form button{
+        padding: 12px 30px;
+    }
 
 }
 
@@ -244,5 +251,12 @@
 
     .right-text .sub-heading {
         text-align: justify;
+    }
+     .footer-form input {
+        padding: 12px 20px;
+        width:100%;
+    }
+    .footer-form button{
+        padding: 12px 10px;
     }
 }
